@@ -65,3 +65,10 @@ In the Gadi terminal, for some reason it didn’t accept pushing to `origin/main
 ```bash
 git push -u origin master
 ```
+
+# Using Personal Access Tokens
+
+Alternatively, a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#about-personal-access-tokens) can be used.
+After [creating](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) the token, with the appropriate repo read and write settings, go to gadi and try to push to the remote origin.
+You should be prompted first for your username (enter this) then password.
+Instead of the password paste the personal access token and you should be good to go!
